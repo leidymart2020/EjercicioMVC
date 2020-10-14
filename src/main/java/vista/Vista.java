@@ -47,6 +47,8 @@ public class Vista extends javax.swing.JFrame {
 
         btnPotencia.setText("Resolver");
 
+        txtResultado.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 255)));
+
         jLabel2.setText("=");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
