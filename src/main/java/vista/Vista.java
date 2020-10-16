@@ -7,7 +7,7 @@ package vista;
 
 /**
  *
- * @author Hogar
+ * @author Leidy Dayan Villamizar Martinez
  */
 public class Vista extends javax.swing.JFrame {
 

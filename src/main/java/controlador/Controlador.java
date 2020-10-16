@@ -13,23 +13,42 @@ import vista.Vista;
 
 /**
  *
+ * @author Leidy Dayan Villamizar Martinez
+ */
+
+/**
+ * Actionlistener se utiliza para que detecte el click del boton resolver de la vista
  * @author Hogar
  */
 public class Controlador implements ActionListener{
-    private Vista view;
+    private Vista view;      
     private Modelo model;
+    
+    /**
+     * constructor recibe dos parametros la vista y el modelo
+     * @param view
+     * @param model 
+     */
 
     public Controlador(Vista view, Modelo model) {
         this.view = view;
         this.model = model;
-        this.view.btnPotencia.addActionListener(this);
+        this.view.btnPotencia.addActionListener(this); //accede a los controles de la vista
     }
+    
+    /**
+     * inicia la vista
+     */
     
     public void iniciar(){
      
-        view.setTitle("Elevar un numero");
-        view.setLocationRelativeTo(null);
+        view.setTitle("Multiplicar");
+        view.setLocationRelativeTo(null); //ventana inicia en la posicion cero
     }
+    /**
+     * 
+     * @param e  recibe un evento 
+     */
     
      public void actionPerformed(ActionEvent e){
      
