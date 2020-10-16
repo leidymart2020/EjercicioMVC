@@ -7,7 +7,7 @@ package modelo;
 
 /**
  *
- * @author Hogar
+ * @author Leidy Dayan Villamizar Martinez
  */
 public class Modelo {
     private int numeroUno;
